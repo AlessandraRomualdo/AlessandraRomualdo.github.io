@@ -8,50 +8,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
-        body{
-            background-color: #CCB9EF;
-        }
-        strong{
-            font-style: italic;
-            color: #D7244B;
-        }
-        #banner{
-            width: 98vw;
-            height: 220px;
-        }
-        h1{
-            font-family: 'Bebas Neue', cursive, sans-serif;
-        }
-        #apresentacao{
-            font-family: monospace, sans-serif;
-        }
-        #habilidades{
-            font-size: 20px;
-            font-family: 'Source Code Pro', monospace;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <div>
             <img id='banner' src="codigo.jpeg" alt="banner">
         </div>
-        <h1>Alessandra Romualdo</h1>
-        <img id="perfil" src="img-perfil.jpg" alt="Imagem de perfil" width="200px">
-        <div id="apresentacao">
-            <p>Atualmente estudo para migrar de carreira, trabalhei mais de 4 anos na área comercial <br>e 
-            tenho um sonho de mudar para a área tec, tenho 29 anos sou de <strong>Minas Gerais</strong> . </p>
-            <p>Atualmente comecei a colocar esse sonho de atuar na área do Desenvolvimento Web <br>em
-            prática estudando na <strong>Trybe</strong> - <strong>Desenvolvimento Web</strong>.</p>
-            <p>Meus principais hobbies são jogar <strong>jogos de sobrevivência</strong> e cooperativos, <br>fazer stream 
-            ver séries, adoro fazer trabalhos manuais e me <strong>arriscar na cozinha.</strong></p>
-
-        </div>
+        
+            <h1>Alessandra Romualdo</h1>
+         <div class="container">    
+                <img id="perfil" src="img-perfil.jpg" alt="Imagem de perfil" width="200px">
+                <div id="apresentacao">
+                    <p>Atualmente estudo para migrar de carreira, trabalhei mais de 4 anos na área comercial <br>e
+                    tenho um sonho de mudar para a área tec, tenho 29 anos sou de <strong>Minas Gerais</strong> . </p>
+                    <p>Atualmente comecei a colocar esse sonho de atuar na área do Desenvolvimento Web <br>em
+                    prática estudando na <strong>Trybe</strong> - <strong>Desenvolvimento Web</strong>.</p>
+                    <p>Meus principais hobbies são jogar <strong>jogos de sobrevivência</strong> e cooperativos, <br>fazer stream
+                    ver séries, adoro fazer trabalhos manuais e me <strong>arriscar na cozinha.</strong></p>
+                </div>
+         </div>
 
         <div id="habilidades">
-            <ul>
+            <ul type="square">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -61,18 +40,17 @@
                 <li>Unix</li>
             </ul>
         </div>
-        <div>
-            <a href="#perfil">Foto de Perfil</a>
-        </div>
-        <div>
-            <a href="https://alessandraromualdo.github.io/pagina-apresentacao/" target="_blank">Apresentação</a>
-        </div>
-        <div>
-            <ul type="square">
-                <li><a href="#apresentacao">Apresentação</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-
-            </ul>
+        <div class="links">
+            
+            <div>
+                <a href="https://alessandraromualdo.github.io/pagina-apresentacao/" target="_blank">Apresentação</a>
+            </div>
+            <div>
+                <ul type="square">
+                    <li><a href="#apresentacao">Apresentação</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                </ul>
+            </div>
         </div>
     </main>
 

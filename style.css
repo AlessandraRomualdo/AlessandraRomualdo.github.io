@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CCB9EF;
+}
+strong{
+    font-style: italic;
+    color: #D7244B;
+}
+#banner{
+    width: 98vw;
+    height: 220px;
+    margin: auto;
+}
+h1{
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+#apresentacao{
+    font-family: monospace, sans-serif;
+    padding: 20px;
+    text-align: justify;
+    line-height: 22px;
+}
+#habilidades{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+.container{
+    width: 750px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.container img{
+    border-radius: 5%;
+    padding: 15px;
+    background-color: white;
+}
+#habilidades li:nth-child(odd){
+    background-color: #ac8be9;
+    border-radius: 8px 0;
+}
+li{
+    padding: 5px;
+}
+.links{
+    width: 300px;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: monospace, sans-serif;
+
+}
