@@ -16,10 +16,11 @@ strong{
     height: 220px;
     margin: auto;
 }
-h1{
+h1, h2{
     font-family: 'Bebas Neue', cursive, sans-serif;
     text-align: center;
     margin-top: 20px;
+    padding: 20px;
 }
 #apresentacao{
     font-family: monospace, sans-serif;
@@ -61,4 +62,15 @@ li{
     padding: 20px;
     font-family: monospace, sans-serif;
 
+}
+section{
+    width: 750px;
+    margin: auto;
+}
+.cards{
+    width: 300px;
+    height: 150px;
+}
+h2{
+    font-size: 1.9em;
 }
